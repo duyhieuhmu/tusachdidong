@@ -127,15 +127,15 @@ export const NotionPageHeader: React.FC<{
                 }
 
                 if (link.pageId) {
-                  return (
-                    <components.PageLink
-                      href={mapPageUrl(link.pageId)}
-                      key={index}
-                      className={cs(styles.navLink, 'breadcrumb', 'button')}
-                    >
-                      {link.title}
-                    </components.PageLink>
-                  )
+                  // return (
+                  //   <components.PageLink
+                  //     href={mapPageUrl(link.pageId)}
+                  //     key={index}
+                  //     className={cs(styles.navLink, 'breadcrumb', 'button')}
+                  //   >
+                  //     {link.title}
+                  //   </components.PageLink>
+                  // )
                 } else {
                   return (
                     <components.Link
